@@ -1,0 +1,115 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"> <!--obligatoire pour html -->
+<head>
+	
+	<title>Project culturel</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<meta 	name="description" content="test de personnalitée en Javascript " />
+	
+	<meta name="robots" content="noindex,nofollow" /> <!-- ne pas afficher la page sur les moteur de recherche etde ne pas suivre la page -->
+	<link href='styles/mef.css' rel='stylesheet' type='text/css' /> <!--  pour que le code sait ou se trouve le doc en css -->
+
+
+	<script language="Javascript" src="js/questions.js"></script> <!--  lie html  a la base de donne des questions -->
+	<script language="Javascript" src="js/main.js"></script> <!--  lie html  a la base de donne des questions -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+<body>
+
+
+
+
+	<div class="div_conteneur_parent"> 
+		<div id="infos" class="texte_div"></div>
+		<div class="div_conteneur_page">
+			<a href="http://www.bonbache.fr/" target="_self">
+			<img src="images/logo.png" style="width:60px;border:none"  align="left" />
+			</a>		
+			<div class="titre_page"><h1>test de personallité</h1></div>
+			
+			<div class="div_int_page"></div>
+			
+			
+			<div style="width:100%;display:block;text-align:center;"></div>
+			
+			
+			<div class="div_saut_ligne" style="height:50px;"></div>
+
+									
+			
+			<div style="float:left;width:10%;height:40px;"></div>
+			<div style="float:left;width:80%;height:40px;text-align:center;">
+				<div class="calque_titre">
+				<h1>choisissez le choix qui vous corespond le mieux</h1>
+				</div>
+			</div>
+					
+			
+			<div class="div_saut_ligne" style="height:90px;"></div>	
+			
+				
+	
+			<div  style="float:right;width:70%;height:300px;text-align:center;" id="conteneur">
+				
+				<div class="center">
+					
+					<div id="question"> 
+					</div>	
+				</div>
+				
+				<div class="colonne" id="liste">
+				
+					<div class="calque_rep" id="rep1" onClick="valider(1)"></div>
+					<div class="calque_rep" id="rep2" onClick="valider(2)"></div>
+					<div class="div_saut_ligne" style="height:40px;"></div>
+						
+				</div>
+				
+			</div>
+			
+
+				<div class="div_saut_ligne" style="height:50px;"></div>
+				<!-- 3cat -->
+				<div class="centre">
+					
+					
+					<div class="titre_centre" id="apercu" style="text-align:left;font-family:default;width:139%;">
+						<input type="button" value="debuter" style="margin-left:10px;" onClick="debuter();" />
+						
+						<a href="result.html" >
+							<input type="button" value="resultat"  style="margin-left:10px;" onClick="resultat();" />
+						</a>
+						<div id="stats" style="float:right;padding-right:15px;">
+					
+							<!--
+							<div style="float:left;">les8chiffre :&nbsp;</div>
+							<div id="resDePers" style="float:left;font-weight:bold;">0</div>
+							-->
+							
+							<div style="float:left;">Questions restantes :&nbsp;</div>
+							<div id="restant" style="float:left;font-weight:bold;"></div>
+					
+						</div>
+						
+					</div>	
+				</div>					
+				
+			</div>
+			
+			
+
+			<div class="div_saut_ligne" style="height:250px;"></div>
+				
+			
+			
+	</div>
+	
+	
+	
+</body>
+
+
+
+
+
