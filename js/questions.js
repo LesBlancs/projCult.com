@@ -62,7 +62,7 @@ function questions(numero)
 		chaine=" *Vous aimez ce qui est concret, r\351el, directement observable*Vous \352tes attir\351s par les id\351es originales*2";
 		break;
 		case 20:
-		chaine=" *Vous \352tes r\351aliste : vous voyez ce qui existe*Vous \352tes imaginatifs : vous voyez les possibilit\351s*2";
+		chaine=" *Vous \352tes r\351aliste : vous voyez ce qui existe*Vous \352tes imaginatif : vous voyez les possibilit\351s*2";
 		break;
 		case 21:
 		chaine=" *Vous vous efforcez d\047\352tre objectif dans vos d\351cisions*Vous fondez vos d\351cisions sur vos valeurs et vos sentiments*2";
