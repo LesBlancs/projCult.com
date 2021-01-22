@@ -19,8 +19,7 @@
 	var jouer=false;
 	var resultatTest ="";
 	
-	alert("questionnaire qui mesure et catégorise votre personnalité a but ludique inspirer du questionnaire MBTI");
-	
+	alert("questionnaire qui mesure et catégorise votre personnalité de facon ludique (source MBTI)");
 	function debuter()
 	{
 		jouer = true;
