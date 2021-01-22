@@ -22,7 +22,7 @@ function questions(numero)
 		chaine=" *Vous aimez  \351tablir de nouveaux contacts*Vous aimez approfondir vos contacts*2";
 		break;
 		case 7:
-		chaine=" *Vous pr \351f \351rez parler plut\364t qu\047\351crire*Vous \352tes consid\351r\351 comme plut\364t secret et r\351serv\351*2";
+		chaine=" *Vous pr\351f\351rez parler plut\364t qu\047\351crire*Vous \352tes consid\351r\351 comme plut\364t secret et r\351serv\351*2";
 		break;
 		case 8:
 		chaine=" *Vous pouvez facilement \352tre distrait*Vous poss\351dez une bonne capacit\351 de concentration*2";
