@@ -150,6 +150,7 @@
 			
 			var temp = e+ " "+i+ " "+s+ " "+n+ " "+t+ " "+f+ " "+j+ " "+p;
 			sessionStorage.setItem("data",temp);
+			document.getElementById('result').removeAttribute('disabled');
 			//document.cookie = "data = "+e+ " "+i+ " "+s+ " "+n+ " "+t+ " "+f+ " "+j+ " "+p+"";
 			//document.cookie =	"username=John Smith; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/";
 			//var x = document.cookie;
