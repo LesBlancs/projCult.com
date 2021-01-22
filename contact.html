@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link href='styles/conctSty.css' rel='stylesheet' type='text/css' /> <!--  pour que le code sait ou se trouve le doc en css -->
+
+</head>
+<body style="background:#005067;">
+
+<center><h1 style="color:#E84E0E">prendre rendez vous</h1></center>
+
+<form id="form" target="_self" onsubmit="return postToGoogle();" action="" autocomplete="off"> 
+
+
+	<center> <input class="calque_rep" id="nameField" name="entry.913409677" placeholder="Entrer votre nom" type="text" required> </center>
+	<center><input class="calque_rep" id="emailField" name="entry.950443978" placeholder="Entrer your email" type="email" required> </center>
+	<center><select class="calque_repMul"  id="mobField" name="entry.1726574167" placeholder="Select horaire" required>
+		<option value="">choisiser votre horaire de rendez vous</option>
+		<option value="10h-11h">10h-11h</option>
+		<option value="11h-12h">11h-12h</option>
+		<option value="14h-15h">14h-15h</option>
+		<option value="15h-16h">15h-16h</option> 
+	</select></center>
+
+
+<button id="send" type="submit" class="common_btn">envoyer</button>
+</form>
+
+<h3 id="success-msg" style="text-align: center !important; margin-top:190px !important; display:none; color:#E84E0E"> Votre rendez vous a été pris en compte</h3>
+
+
+
+<img src="images/conctFond.jpg" style="width:100%; opacity:.4;">
+
+
+
+
+<script>
+function postToGoogle() {
+                var field1 = $("#nameField").val();
+                var field2 = $("#emailField").val();
+                var field3 = $("#mobField").val();
+				var field4=0;
+				var field5=0;
+ 				
+				if(field1 == ""){
+					alert('Please Fill Your Name');
+					document.getElementById("nameField").focus();
+					return false;
+				}
+				if(field2 == ""){
+					alert('Please Fill Your Email');
+					document.getElementById("emailField").focus();
+					return false;
+				}
+				if(field3 == ""){
+					alert('Please Fill Your Mobile Number');
+					document.getElementById("mobField").focus();
+					return false;
+				}
+				
+				
+				
+				var temp = sessionStorage.getItem("result2");
+				
+				
+				if(temp != null){
+					let aty = temp.split(' ');
+					
+					let atyf = [];
+				
+					alert(temp);
+					for (let pas = 0; pas < aty.length; pas++) {
+					
+						if (aty[pas]!= "vous" && aty[pas]!= "ete" && aty[pas]!= "un" && aty[pas]!= "et" && aty[pas]!= "de" && aty[pas]!= "type"){
+							atyf.push(aty[pas]);
+							alert(aty[pas]);
+						}
+					
+					}
+					
+					field4 = atyf[0];
+					field5 = atyf[1];
+					
+					
+				}
+				
+                $.ajax({
+                    url: "https://docs.google.com/forms/d/e/1FAIpQLSexI4flCVCCGqfhouFQ9LjI6uSj_G5OzY_TjFLJ8pyAXrzCAA/formResponse?",
+					data: {"entry.913409677": field1, "entry.950443978": field2, "entry.1726574167": field3, "entry.942411436": field4, "entry.1414976403": field5 },
+                    type: "POST",
+                    dataType: "xml",
+                    success: function(d)
+					{
+					},
+					error: function(x, y, z)
+						{
+
+							$('#success-msg').show();
+							$('#form').hide();
+							
+						}
+                });
+				return false;
+            }
+</script>
+</body>
+</html>
+</html>
