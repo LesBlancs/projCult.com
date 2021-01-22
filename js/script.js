@@ -23,10 +23,10 @@ let chart1 = new Chart(myChart1, {
           {
             label: 'ton profil',
             fill: true,
-            backgroundColor: "rgba(179, 181, 198, 0.2)",
-            borderColor: "rgba(179, 181, 198, 1)",
+            backgroundColor: "rgba(0, 80, 103, 0.2)",
+            borderColor: "rgba(0, 80, 103, 0.75)",
             pointBorderColor: "#fff",
-            pointBackgroundColor: "rgba(179, 181, 198, 1)",
+            pointBackgroundColor: "rgba(232, 78, 14, 1)",
             data: dataf
           }
         ]
