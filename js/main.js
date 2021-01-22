@@ -85,7 +85,7 @@
 			jouer=false;
 			
 			if(s>n && j>p) {
-				resultatTest +="vous ete un gardien et de type ";
+				resultatTest +="vous êtes un gardien et de type ";
 				
 				if(e>i &&f>t){
 					resultatTest += "soutien";
@@ -101,7 +101,7 @@
 				}
 			}
 			else if(s>n && p>j){
-				resultatTest +="vous ete un artisans et de type ";
+				resultatTest +="vous êtes un artisan et de type ";
 				if(e>i &&f>t){
 					resultatTest += "interprete";
 				}
@@ -116,7 +116,7 @@
 				}
 			}
 			else if(n>s && f>t) {	
-				resultatTest +="vous ete un idealistes et de type ";
+				resultatTest +="vous êtes un idealiste et de type ";
 				if(e>i &&j>p){
 					resultatTest += "professeur";
 				}
@@ -131,7 +131,7 @@
 				}
 			}
 			else if(n>s && t>f) {
-				resultatTest +="vous ete un rationnel et de type ";
+				resultatTest +="vous êtes un rationnel et de type ";
 				if(e>i &&j>p){
 					resultatTest += "marechal";
 				}
