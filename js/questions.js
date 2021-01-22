@@ -59,7 +59,7 @@ function questions(numero)
 		chaine=" *Vous \352tes pratique*Vous \352tes th\351orique*2";
 		break;
 		case 19:
-		chaine=" *Vous aimez ce qui est concret, r\351el, directement observable*Vous \352tes attir\351s par les id\351es originales*2";
+		chaine=" *Vous aimez ce qui est concret, r\351el, directement observable*Vous \352tes attir\351 par les id\351es originales*2";
 		break;
 		case 20:
 		chaine=" *Vous \352tes r\351aliste : vous voyez ce qui existe*Vous \352tes imaginatif : vous voyez les possibilit\351s*2";
