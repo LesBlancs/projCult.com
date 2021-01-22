@@ -19,6 +19,7 @@
 	var jouer=false;
 	var resultatTest ="";
 	
+	alert("test a but ludique inspirer du test MBTI");
 	
 	function debuter()
 	{
