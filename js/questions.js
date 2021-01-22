@@ -10,7 +10,7 @@ function questions(numero)
 		chaine=" *Vous aimez parler*Vous aimez  \351couter*2";
 		break;
 		case 3:
-		chaine=" *Vous penser \340 haute voix*Vous penser dans votre t\352te*2";
+		chaine=" *Vous pensez \340 haute voix*Vous pensez dans votre t\352te*2";
 		break;
 		case 4:
 		chaine=" *Vous agissez,puis pensez*Vous pensez,puis agissez*2";
@@ -56,7 +56,7 @@ function questions(numero)
 		chaine=" *Vous pr\351f\351rez les instructions \351tape par \351tape*Vous cherchez \340 comprendre*2";
 		break;
 		case 18:
-		chaine=" *Vous \352tes pratique*Vous \352tes th \351orique*2";
+		chaine=" *Vous \352tes pratique*Vous \352tes th\351orique*2";
 		break;
 		case 19:
 		chaine=" *Vous aimez ce qui est concret, r\351el, directement observable*Vous \352tes attir\351s par les id\351es originales*2";
