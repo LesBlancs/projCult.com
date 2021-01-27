@@ -104,7 +104,7 @@ $.each(temp2, function() {
 	var value += this[key];
 	var key = Object.keys(this)[5];
   	var value += this[key];
-	alert("cat1v2: "+typeof value);
+	//alert("cat1v2: "+typeof value);
 	tempTab.push(value);
   //do something with value;
 }); 	
