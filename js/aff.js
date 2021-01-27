@@ -85,7 +85,8 @@ var temp ="";
 
 
 
-
+var retour =[];
+var categorie = [0,0,0,0];
 function lanc() {
 
 alert("tp2: "+temp);
@@ -100,7 +101,7 @@ alert("tp2: "+temp);
 		
 	}
 	
-	var categorie = [0,0,0,0];
+	
 	for( let i=0;i<tempTab.length;i++) {
 		//alert(tempTab[i]);
 		if( tempTab[i].match("guerisseur")) categorie[0]++;
@@ -111,7 +112,7 @@ alert("tp2: "+temp);
 	}
 	
 	//alert(categorie);
-	retour =[];
+	
 }	
 
 var config1 = {
