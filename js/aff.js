@@ -96,7 +96,7 @@ var tempTab = [];
 $.each(temp2, function() {
   	var key = Object.keys(this)[0];
   	var value = this[key];
-	//alert("cat1v2: "+type of value);
+	alert("cat1v2: "+type of value);
 	//tempTab.push(value);
   //do something with value;
 }); 	
