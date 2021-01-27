@@ -94,8 +94,16 @@ temp2=temp;
 var tempTab = [];
 	
 $.each(temp2, function() {
-  	var key = Object.keys(this)[0];
-  	var value = this[key];
+  	var key = Object.keys(this)[1];
+	var value += this[key];
+	var key = Object.keys(this)[2];
+	var value += this[key];
+	var key = Object.keys(this)[3];
+	var value += this[key];
+	var key = Object.keys(this)[4];
+	var value += this[key];
+	var key = Object.keys(this)[5];
+  	var value += this[key];
 	alert("cat1v2: "+typeof value);
 	tempTab.push(value);
   //do something with value;
