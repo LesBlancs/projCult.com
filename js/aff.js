@@ -24,7 +24,7 @@
         $("#data").empty();
         $("#data").html(response.result.values);
         var temp = response.result.values;
-        alert("temp");
+        alert(temp);
         console.log(response.result.values);
       }, function(reason) {
         console.error('error: ' + reason.result.error.message);
