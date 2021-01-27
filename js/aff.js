@@ -93,13 +93,12 @@ function lanc() {
 temp2=temp;
 var tempTab = [];
 	
-for(key in temp2) {
-    if(temp2.hasOwnProperty(key)) {
-        var value = temp2[key];
-	alert("cat1v2: "+type of value);
-
-    }
-}	
+$.each(temp2, function() {
+  var key = Object.keys(this)[0];
+  var value = this[key];
+	alert("cat1t: "+value);
+  //do something with value;
+}); 	
 	//alert("cat1t: "+tempTab);
 	//alert("cat1v2: "+type of temp2);
 	
