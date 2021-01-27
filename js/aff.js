@@ -91,10 +91,10 @@ function lanc() {
 
 //alert("tp2: "+temp);
 var tempTab = [];
-	
+	/*
 for( let i=0;i<temp.length;i++) {
 	tempTab = temp.split(",");
-}
+}*/
 	
 	/*
 	for( let i=0;i<tempTab.length;i++) {
