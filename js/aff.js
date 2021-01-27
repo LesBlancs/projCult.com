@@ -90,7 +90,7 @@ var categorie = [0,0,0,0];
 function lanc() {
 
 //alert("tp2: "+temp);
-	temp2=temp;
+	temp2=Object.values(temp);
 var tempTab = [];
 /*	
 for( let i=0;i<temp2.length;i++) {
