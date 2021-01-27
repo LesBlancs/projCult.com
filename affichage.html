@@ -2,24 +2,62 @@
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script language="Javascript" src="js/aff.js"></script> 
+    
+    <title>Pie Chart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href='styles/mef2.css' rel='stylesheet' type='text/css' /> <!--  pour que le code sait ou se trouve le doc en css -->
+   
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    
   </head>
   <body>
     <div id="data"></div>
-    
-    <!--
-    BEFORE RUNNING:
-    ---------------
-    1. If not already done, enable the Google Sheets API
-       and check the quota for your project at
-       https://console.developers.google.com/apis/api/sheets
-    2. Get access keys for your application. See
-       https://developers.google.com/api-client-library/javascript/start/start-js#get-access-keys-for-your-application
-    3. For additional information on authentication, see
-       https://developers.google.com/sheets/api/quickstart/js#step_2_set_up_the_sample
-    -->
-    
     <button id="signin-button" hidden="hidden" onclick="handleSignInClick()">Sign in</button>
     <button id="signout-button" hidden="hidden" onclick="handleSignOutClick()">Sign out</button>
+    
+    
+    
+    
+    <div style="margin-top:1%;width:100%"></div>
+		<div class="ligne">
+		
+			<div  style=";width:1%;"></div>
+			<div  style=";width:1%;;background-color: #4f4f4f;"></div>
+			<div id="canvas-holder" style=";width:30%;background-color: #4f4f4f; height:35%;">
+				<canvas id="chart-area"></canvas>
+			</div>
+			<div  style=";width:6%;background-color: #4f4f4f;"></div>
+			<div id="canvas-holder" style="width:60%;background-color: #4f4f4f;">
+				<canvas id="chart-area2"></canvas>
+			</div>
+			<div  style=";width:1%;background-color: #4f4f4f;"></div>
+			<div  style=";width:1%;"></div>
+		</div>
+		
+		<!--
+		<div class="ligne">
+			<div  style=";width:15%;"></div>
+			<h1 class="ml9">
+				<span class="text-wrapper">
+					<span class="letters" id="lien" style=";font-weight:bold;"></span>
+				</span>
+			</h1>
+		</div>-->
+		<div class="text_box"id="nbPersonne" style="margin-left:25%;float:left;font-weight:bold;"></div>
+
+
+		<div class="wrapper"style="margin-left:3%;float:left;font-weight:bold;">
+			<h1>Lien du questionnaire : https://janes-r.github.io/projCult.com</h1>
+		</div>
+
+		
+		
+
+		
+		
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script language="Javascript" src="js/aff.js"></script> 
   </body>
 </html>
 
