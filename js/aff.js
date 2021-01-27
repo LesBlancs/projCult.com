@@ -90,17 +90,17 @@ var categorie = [0,0,0,0];
 function lanc() {
 
 //alert("tp2: "+temp);
-	//temp2=Object.values(temp);
+temp2=temp;
 var tempTab = [];
-	/*
-for(key in temp) {
-    if(temp.hasOwnProperty(key)) {
-        var value = temp[key];
+	
+for(key in temp2) {
+    if(temp2.hasOwnProperty(key)) {
+        var value = temp2[key];
 	alert("cat1v2: "+type of value);
-        tempTab.push(value);
+
     }
-}	*/
-	alert("cat1t: "+tempTab);
+}	
+	//alert("cat1t: "+tempTab);
 	//alert("cat1v2: "+type of temp2);
 	
 /*	
