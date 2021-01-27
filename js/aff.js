@@ -108,7 +108,7 @@ for( let i=0;i<temp2.length;i++) {
 	}*/
 	
 	alert("cat1t: "+tempTab);
-	alert("cat1v: "+typeof temp2);
+	alert("cat1v2: "+Object.values(temp2));
 	
 }	
 alert("cat2: "+categorie);
