@@ -22,7 +22,7 @@ var temp ="";
       request.then(function(response) {
         // TODO: Change code below to process the `response` object:
         $("#data").empty();
-        $("#data").html(response.result.values);
+        //$("#data").html(response.result.values);
         temp = response.result.values;
 	lanc();
         alert("tp1 "+temp);
