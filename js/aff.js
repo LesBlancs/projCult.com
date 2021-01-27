@@ -103,7 +103,7 @@ alert("tp2: "+temp);
 	
 	
 	for( let i=0;i<tempTab.length;i++) {
-		//alert(tempTab[i]);
+		alert(tempTab[i]);
 		if( tempTab[i].match("guerisseur")) categorie[0]++;
 		else if( tempTab[i].match("supervisueur")) categorie[1]++;
 		else if( tempTab[i].match("marechal")) categorie[2]++;
