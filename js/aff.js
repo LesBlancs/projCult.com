@@ -24,8 +24,8 @@ var temp ="";
         $("#data").empty();
         //$("#data").html(response.result.values);
         temp = response.result.values;
-        alert(temp);
-        //console.log(response.result.values);
+        //alert(temp);
+        console.log(response.result.values);
       }, function(reason) {
         console.error('error: ' + reason.result.error.message);
       });
