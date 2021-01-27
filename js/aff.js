@@ -90,18 +90,13 @@ var categorie = [0,0,0,0];
 function lanc() {
 
 alert("tp2: "+temp);
-
-
-    //var temp = "Horodateur,Entrer votre nom,email,Choisir l'heure de rendez vous,atypie,type,22/01/2021 07:30:29,test,test@test,10h-11h,22/01/2021 07:31:36,test2,test2@test,10h-11h,idealistes,guerisseur,22/01/2021 09:46:46,UNTEST,test@test.fr,14h-15h,gardien,supervisueur,22/01/2021 09:49:12,salut,salut@gmail.com,10h-11h,rationnel,marechal,22/01/2021 10:19:59,fabre,fabre@3il.fr,10h-11h,idealistes,guerisseur,27/01/2021 11:02:21,j,j@gdgf.f,11h-12h,0,0,27/01/2021 11:02:45,ja,raf@gmail,14h-15h,null,27/01/2021 11:35:44,test,test@te,14h-15h,êtes,gardien,27/01/2021 11:36:37,test,test@gm,11h-12h,êtes,gardien";
+var tempTab = [];
 	
-	var tempTab = [];
+for( let i=0;i<temp.length;i++) {
+	tempTab = temp.split(",");
+}
 	
-	for( let i=0;i<temp.length;i++) {
-		tempTab = temp.split(",");
-		
-	}
-	
-	
+	/*
 	for( let i=0;i<tempTab.length;i++) {
 		alert(tempTab[i]);
 		if( tempTab[i].match("guerisseur")) categorie[0]++;
@@ -109,9 +104,9 @@ alert("tp2: "+temp);
 		else if( tempTab[i].match("marechal")) categorie[2]++;
 		else if( tempTab[i].match("guerisseur")) categorie[3]++;
 	
-	}
+	}*/
 	
-	alert("cat1: "+categorie);
+	alert("cat1: "+tempTab);
 	
 }	
 alert("cat2: "+categorie);
