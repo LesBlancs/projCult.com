@@ -107,7 +107,7 @@ for( let i=0;i<temp2.length;i++) {
 	
 	}*/
 	
-	alert("cat1: "+tempTab);
+	alert("cat1t: "+tempTab);
 	alert("cat1: "+temp2);
 	
 }	
