@@ -23,7 +23,7 @@ var temp ="";
         // TODO: Change code below to process the `response` object:
         $("#data").empty();
         //$("#data").html(response.result.values);
-        temp = response.result.values.val();
+        temp = response.result.values;
 	lanc();
         alert("tp1 "+temp);
         console.log(response.result.values);
@@ -90,8 +90,18 @@ var categorie = [0,0,0,0];
 function lanc() {
 
 //alert("tp2: "+temp);
-	temp2=Object.values(temp);
+	//temp2=Object.values(temp);
 var tempTab = [];
+for(key in temp) {
+    if(temp.hasOwnProperty(key)) {
+        var value = temp[key];
+	alert("cat1v2: "+type of value);
+        tempTab.push(value);
+    }
+}	
+	alert("cat1t: "+tempTab);
+	//alert("cat1v2: "+type of temp2);
+	
 /*	
 for( let i=0;i<temp2.length;i++) {
 	tempTab = temp2.split(",");
@@ -107,8 +117,7 @@ for( let i=0;i<temp2.length;i++) {
 	
 	}*/
 	
-	alert("cat1t: "+tempTab);
-	alert("cat1v2: "+type of temp2);
+	
 	
 }	
 alert("cat2: "+categorie);
