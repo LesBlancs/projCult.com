@@ -23,7 +23,7 @@ var temp ="";
         // TODO: Change code below to process the `response` object:
         $("#data").empty();
         //$("#data").html(response.result.values);
-        temp = response.result.values;
+        temp = Object.values(response.result.values);
 	lanc();
         alert("tp1 "+temp);
         console.log(response.result.values);
@@ -108,7 +108,7 @@ for( let i=0;i<temp2.length;i++) {
 	}*/
 	
 	alert("cat1t: "+tempTab);
-	alert("cat1v2: "+Object.values(temp2));
+	alert("cat1v2: "+type of temp2);
 	
 }	
 alert("cat2: "+categorie);
