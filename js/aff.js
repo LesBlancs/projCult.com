@@ -92,13 +92,14 @@ function lanc() {
 //alert("tp2: "+temp);
 	//temp2=Object.values(temp);
 var tempTab = [];
+	/*
 for(key in temp) {
     if(temp.hasOwnProperty(key)) {
         var value = temp[key];
 	alert("cat1v2: "+type of value);
         tempTab.push(value);
     }
-}	
+}	*/
 	alert("cat1t: "+tempTab);
 	//alert("cat1v2: "+type of temp2);
 	
