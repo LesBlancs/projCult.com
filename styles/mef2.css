@@ -1,0 +1,356 @@
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+body {
+	margin:0px;
+	padding:0px;
+	/*background:#FFFFFF;
+	background-repeat:repeat-x;*/
+	width:100%;
+	font-family:Calibri;
+	font-size:13px;
+	color:#666666;
+	background-color:#EDEEEE;
+	background-image:url(../images/aff.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	
+}
+
+h1
+{
+	font-size:28px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+input
+{
+	width:250px;
+	height:30px;
+	/*Coins arrondis*/
+	border:#333 1px solid;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 5px;
+	text-align:left;
+	padding-left:5px;
+	font-size:20px;
+	background-color:#fff;
+	color:#7030a0;
+	font-weight:bold;
+	text-decoration:none;
+	margin-top:-5px;
+}
+
+input[type="text"]
+{
+	width:650px;
+	font-size:16px;
+}
+
+input[type="button"]
+{
+	 width:130px;
+	 height:35px;
+	 font-weight:bold;
+     color: #EDEEEE;
+	 font-weight:bold;
+     background: #444;
+     background: linear-gradient( #555, #2C2C2C);
+	 text-shadow: 0px 1px 0px white;
+	 text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.4);
+     box-shadow: 0 0 10px rgba( 0, 0, 0, 0.8),
+                 0 -1px 0 rgba( 255, 255, 255, 0.6);	
+	
+	box-shadow: 2px 2px 0px #aaa;
+	font-size:20px;
+	text-align:center;	
+	padding-left:0px;
+}
+
+input[type="button"]:hover
+{
+	cursor:pointer;
+	box-shadow: 6px 6px 0px #aaa;
+}
+
+#cadre
+{
+	width:700px;
+	height:350px;
+}
+
+#prop
+{
+	visibility:hidden;
+	position:absolute;
+	background-color:#EDEEEE;
+	height:auto;
+	width:640px;
+	border:#333 1px solid;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;	
+	background-color:#EDEEEE;
+	background:rgba(100,100,100,.8);
+	color:#ccccff;
+	font-weight:bold;
+	font-size:20px;
+	margin-top:5px;
+	padding:5px;
+	cursor:pointer;
+}
+
+a:link {
+    color:#EDEEEE;
+	text-decoration:none;
+}
+a:visited {
+    color:#EDEEEE;
+	text-decoration:none;
+}
+a:hover {
+    color:#EDEEEE;
+	text-decoration:none;
+}
+a:active {
+    color:#EDEEEE;
+	text-decoration:none;
+}
+
+.flux
+{
+	padding:0px;
+	margin:0px;
+	width:auto;
+}
+
+.flux:hover
+{
+	color:#EDEEEE;
+}
+
+.titre_cat
+{
+	color:#66666;
+}
+
+.calque_titre
+{
+	width:auto;
+	display:block;
+	height:auto;
+	text-align:center;
+	background-color:#ccccff;
+	border:#7030a0 1px solid;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;	
+	padding-top:12px;
+	box-shadow: 6px 6px 0px #aaa;
+	color:#7030a0;	
+}
+
+.calque_question
+{
+	width:auto;
+	display:block;
+	text-align:center;
+	background-color:#ccccff;
+	border:#7030a0 1px solid;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;	
+	padding-top:2%;
+	font-size:40px;
+	box-shadow: 6px 6px 0px #aaa;
+	color:#7030a0;	
+}
+
+.texte_div
+{
+	font-size:15px;
+	z-index:130;
+	position:absolute;
+	border-style:none;
+	background-image:url(fond/fd-roll.gif);
+	width:250px;
+	height:170px;
+	visibility:hidden;
+	text-align:center;
+}
+
+.astuce
+{
+	width:auto;
+	color:#66666;
+	font-weight:normal;
+	font-size:15px;
+	padding:10px;
+	text-align:center;
+}
+
+.colonne
+{
+	width:460px;
+	float:left;
+	height:285px;
+	text-align:center;
+	border:#333 1px solid;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;	
+	background-color:#EDEEEE;
+	background:rgba(100,100,100,.1);
+	color:#66666;
+	font-weight:bold;
+	font-size:20px;
+	padding-top:16px;
+	padding-bottom:10px;
+	margin-bottom:20px;
+	margin-left:40px;
+}
+.ligne
+{
+	display: flex;
+	
+}
+.div_space
+{
+	width:75px;
+	height:100%;
+	margin-left: 50px;
+	display:inline-block;
+}
+.calque_rep
+{
+	width:400px;
+	margin:30px;
+	padding-top:25px;
+	float:left;
+	height:50px;
+	text-align:center;
+	border:#333 1px solid;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;	
+	background-color:#EDEEEE;
+	border:#7030a0 1px solid;
+	color:#7030a0;
+	font-size:20px;
+	/*margin-bottom:20px;
+	margin-left:40px;*/
+	font-family:"Georgia, serif";	
+}
+
+.calque_rep:hover
+{
+	cursor:pointer;
+	box-shadow: 6px 6px 0px #aaa;
+	background-color:#ccccff;
+}
+
+.titre_centre
+{
+	
+	width:1100px;
+	float:left;
+	height:30px;
+	text-align:center;
+	border:#333 1px solid;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;	
+	background-color:#ccccff;
+	border:#7030a0 1px solid;
+	color:#7030a0;
+	font-size:18px;
+	padding-top:16px;
+	padding-bottom:10px;
+	margin-bottom:20px;
+	margin-left:40px;
+	font-family:"Lucida Calligraphy";
+	
+}
+.text_box
+{
+	
+	width:auto;
+	float:left;
+	height:auto;
+	text-align:center;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;	
+	background-color:#4f4f4f;
+	color:white;
+	font-size:40px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:25px;
+	padding-left:25px;
+	margin-top:1%;
+	
+	
+}
+
+
+.centre
+{
+	width:800px;
+	float:left;
+	text-align:center;
+}
+
+
+
+
+
+@font-face {
+	 font-family: "ubuntu";
+	 font-style: italic;
+	 font-weight: 300;
+	 src: local("Lato Light Italic"), local("Lato-LightItalic"), url(https://fonts.gstatic.com/s/ubuntucondensed/v8/u-4k0rCzjgs5J7oXnJcM_0kACGMtT-Dfqw.woff2) format("woff2");
+}
+ a {
+	 text-decoration: none;
+	 color: #9ca0b1;
+}
+ .wrapper {
+	 width:auto;
+	float:left;
+	height:auto;
+	text-align:center;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;	
+	background-color:#4f4f4f;
+	color:white;
+	
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:25px;
+	padding-left:25px;
+	margin-top:3.5%;
+}
+ .wrapper h1 {
+	 color: #fff;
+	 font-size:60px;
+	 font-family: "ubuntu";
+
+	 font-weight: 700;
+	 font-family: "Josefin Sans", sans-serif;
+	 background: linear-gradient(to right, rgb(0,129,166) 10%, rgb(169,92,55) 50%, rgb(232,78,14) 60%);
+	 background-size: auto auto;
+	 background-clip: border-box;
+	 background-size: 200% auto;
+	 color: #fff;
+	 background-clip: text;
+	 text-fill-color: transparent;
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+	 animation: textclip 3s linear infinite;
+	 display: inline-block;
+}
+ @keyframes textclip {
+	 to {
+		 background-position: 200% center;
+	}
+}
