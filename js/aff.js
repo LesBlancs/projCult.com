@@ -97,10 +97,10 @@ $.each(temp2, function() {
   	var key = Object.keys(this)[0];
   	var value = this[key];
 	alert("cat1v2: "+typeof value);
-	//tempTab.push(value);
+	tempTab.push(value);
   //do something with value;
 }); 	
-	//alert("cat1t: "+tempTab);
+	alert("cat1t: "+tempTab);
 	//alert("cat1v2: "+type of temp2);
 	
 /*	
