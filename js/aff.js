@@ -89,7 +89,7 @@ var retour =[];
 var categorie = [0,0,0,0];
 function lanc() {
 
-alert("tp2: "+temp);
+//alert("tp2: "+temp);
 var tempTab = [];
 	
 for( let i=0;i<temp.length;i++) {
