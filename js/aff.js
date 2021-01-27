@@ -23,7 +23,7 @@ var temp ="";
         // TODO: Change code below to process the `response` object:
         $("#data").empty();
         //$("#data").html(response.result.values);
-        temp = Object.values(response.result.values);
+        temp = response.result.values.val();
 	lanc();
         alert("tp1 "+temp);
         console.log(response.result.values);
