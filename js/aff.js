@@ -92,10 +92,10 @@ function lanc() {
 //alert("tp2: "+temp);
 	temp2=temp;
 var tempTab = [];
-	
+/*	
 for( let i=0;i<temp2.length;i++) {
 	tempTab = temp2.split(",");
-}
+}*/
 	
 	/*
 	for( let i=0;i<tempTab.length;i++) {
@@ -108,7 +108,7 @@ for( let i=0;i<temp2.length;i++) {
 	}*/
 	
 	alert("cat1t: "+tempTab);
-	alert("cat1: "+temp2);
+	alert("cat1: "+typeof temp2);
 	
 }	
 alert("cat2: "+categorie);
