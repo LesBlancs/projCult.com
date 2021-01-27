@@ -84,12 +84,13 @@ var temp ="";
 
 
 
-
+var temp2 = "";
 var retour =[];
 var categorie = [0,0,0,0];
 function lanc() {
 
 //alert("tp2: "+temp);
+	temp2=temp;
 var tempTab = [];
 	/*
 for( let i=0;i<temp.length;i++) {
@@ -107,6 +108,7 @@ for( let i=0;i<temp.length;i++) {
 	}*/
 	
 	alert("cat1: "+tempTab);
+	alert("cat1: "+temp2);
 	
 }	
 alert("cat2: "+categorie);
