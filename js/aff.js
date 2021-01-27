@@ -22,9 +22,9 @@ var temp ="";
       request.then(function(response) {
         // TODO: Change code below to process the `response` object:
         $("#data").empty();
-        //$("#data").html(response.result.values);
+        $("#data").html(response.result.values);
         temp = response.result.values;
-        //alert(temp);
+        alert(temp);
         console.log(response.result.values);
       }, function(reason) {
         console.error('error: ' + reason.result.error.message);
