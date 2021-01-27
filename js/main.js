@@ -153,6 +153,7 @@
 			document.getElementById('result').removeAttribute('disabled');
 			document.getElementById('result').removeAttribute('hidden');
 			window.location.href = "result.html";
+			resultat();
 			//document.cookie = "data = "+e+ " "+i+ " "+s+ " "+n+ " "+t+ " "+f+ " "+j+ " "+p+"";
 			//document.cookie =	"username=John Smith; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/";
 			//var x = document.cookie;
