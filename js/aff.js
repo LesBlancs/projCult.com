@@ -24,6 +24,7 @@ var temp ="";
         $("#data").empty();
         $("#data").html(response.result.values);
         temp = response.result.values;
+	lanc();
         alert("tp1 "+temp);
         console.log(response.result.values);
       }, function(reason) {
@@ -85,7 +86,7 @@ var temp ="";
 
 
 
-
+function lanc() {
 
 alert("tp2: "+temp);
 
@@ -111,7 +112,7 @@ alert("tp2: "+temp);
 	
 	//alert(categorie);
 	retour =[];
-	
+}	
 
 var config1 = {
         type: 'doughnut',
