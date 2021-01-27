@@ -111,10 +111,10 @@ alert("tp2: "+temp);
 	
 	}
 	
-	alert(categorie);
+	alert("cat1: "+categorie);
 	
 }	
-alert(categorie);
+alert("cat2: "+categorie);
 var config1 = {
         type: 'doughnut',
         data: {
