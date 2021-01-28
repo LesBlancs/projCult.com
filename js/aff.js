@@ -183,12 +183,12 @@ function lanc() {
 //document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
 //alert(data2);
 
-
+ //gardien artisan idealiste rationnel
 var data1 = [3,6,3,5];
 config1 = {
         type: 'doughnut',
         data: {
-            labels: ["guerisseur", "supervisueur", "marechal", "guerisseur"],
+            labels: ["gardien", "artisan", "idealiste", "rationnel"],
             datasets: [{
                 backgroundColor: [
 					'rgb(12, 146, 204)',
