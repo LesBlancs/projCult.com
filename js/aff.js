@@ -9,8 +9,8 @@ var categorie = [0,0,0,0];
 var config1;
 var config2;
 
-
-
+var categorie1 = [0,0,0,0];
+var categorie2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 /*
 const {google} = require('googleapis');
 const keys = require('keys.json');
@@ -73,7 +73,8 @@ async function gsrun(cl){
         $("#data").empty();
         //$("#data").html(response.result.values);
         temp = response.result.values;
-	data2 = lanc();
+	categorie1[0] = lanc();
+	categorie2[0] = lanc();
         alert("tp1 "+temp);
 	      
 	//let nb =data2[0]+data2[1]+data2[2]+data2[3];
@@ -166,19 +167,40 @@ function lanc() {
 	
 	for( let i=0;i<tempTab.length;i++) {
 		//alert(tempTab[i]);
-		if( tempTab[i].match("guerisseur")) categorie[0]++;
-		else if( tempTab[i].match("supervisueur")) categorie[1]++;
-		else if( tempTab[i].match("marechal")) categorie[2]++;
-		else if( tempTab[i].match("guerisseur")) categorie[3]++;
+		if( tempTab[i].match("gardien")) categorie1[0]++;
+		else if( tempTab[i].match("artisan")) categorie1[1]++;
+		else if( tempTab[i].match("idealiste")) categorie1[2]++;
+		else if( tempTab[i].match("rationnel")) categorie1[3]++;
+		
+		else if( tempTab[i].match("rationnel")) categorie2[0]++;
+		else if( tempTab[i].match("rationnel")) categorie2[1]++;
+		else if( tempTab[i].match("rationnel")) categorie2[2]++;
+		else if( tempTab[i].match("rationnel")) categorie2[3]++;
+		
+		else if( tempTab[i].match("rationnel")) categorie2[4]++;
+		else if( tempTab[i].match("rationnel")) categorie2[5]++;
+		else if( tempTab[i].match("rationnel")) categorie2[6]++;
+		else if( tempTab[i].match("rationnel")) categorie2[7]++;
+		
+		else if( tempTab[i].match("rationnel")) categorie2[8]++;
+		else if( tempTab[i].match("rationnel")) categorie2[9]++;
+		else if( tempTab[i].match("rationnel")) categorie2[10]++;
+		else if( tempTab[i].match("rationnel")) categorie2[11]++;
+		
+		else if( tempTab[i].match("rationnel")) categorie2[12]++;
+		else if( tempTab[i].match("rationnel")) categorie2[13]++;
+		else if( tempTab[i].match("rationnel")) categorie2[14]++;
+		else if( tempTab[i].match("rationnel")) categorie2[15]++;
+		
 	
 	}
 	//alert("categorie: "+categorie);
 	
 	//document.getElementById('lien').innerText = "Lien du questionnaire : https://janes-r.github.io/projCult.com";
 	
-	return categorie;
+	return categorie1,categorie2;
 }	
-
+//
 //let nb =data2[0]+data2[1]+data2[2]+data2[3];
 //document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
 //alert(data2);
@@ -202,7 +224,7 @@ config1 = {
                     'rgb(131, 0, 255)',
                     'rgb(250, 255, 0)'
                 ],
-                data: [3,6,3,5],
+                data: categorie1,
             }]
         },
         options: {
@@ -252,7 +274,7 @@ config2 = {
 					'rgb(255, 255, 255)',
 					'rgb(0, 0, 0)',
                 ],
-                data: [2,3,0,1,2,0,0,1,1,3,0,1,2,0,0,1],
+                data: categorie2,
             }]
         },
 
