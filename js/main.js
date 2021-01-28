@@ -147,9 +147,9 @@
 				}
 			}else  {
 				continuer = false;
-				alert("erreur refaite le test");
+				alert("erreur lors du test,refaite le test");
 			}
-			if(continuer==true) {
+			if(continuer == true) {
 				var temp = e+ " "+i+ " "+s+ " "+n+ " "+t+ " "+f+ " "+j+ " "+p;
 				sessionStorage.setItem("data",temp);
 				document.getElementById('result').removeAttribute('disabled');
