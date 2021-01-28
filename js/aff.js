@@ -167,10 +167,23 @@ function lanc() {
 	
 	for( let i=0;i<tempTab.length;i++) {
 		//alert(tempTab[i]);
-		if( tempTab[i].match("gardien")) categorie1[0]++;
-		else if( tempTab[i].match("artisan")) categorie1[1]++;
-		else if( tempTab[i].match("idealiste")) categorie1[2]++;
-		else if( tempTab[i].match("rationnel")) categorie1[3]++;
+		if( tempTab[i].match("gardien")) {
+			categorie1[0]++;
+			nb++;
+			
+		}
+		else if( tempTab[i].match("artisan")){
+			categorie1[1]++;
+			nb++;
+			}
+		else if( tempTab[i].match("idealiste")) {
+			categorie1[2]++;
+			nb++;
+			}
+		else if( tempTab[i].match("rationnel")) {
+			categorie1[3]++;
+			nb++;
+			}
 		
 		else if( tempTab[i].match("soutien")) categorie2[0]++;
 		else if( tempTab[i].match("controleur")) categorie2[1]++;
