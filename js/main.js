@@ -94,7 +94,7 @@
 					resultatTest += "controleur";
 				}
 				else if( e>i && f<t){
-					resultatTest += "supervisueur";
+					resultatTest += "superviseur";
 				}
 				else {
 					resultatTest += "protecteur";
@@ -103,7 +103,7 @@
 			else if(s>n && p>j){
 				resultatTest +="vous êtes un artisan et de type ";
 				if(e>i &&f>t){
-					resultatTest += "interprete";
+					resultatTest += "interprète";
 				}
 				else if( e<i && f<t){
 					resultatTest += "artisant";
