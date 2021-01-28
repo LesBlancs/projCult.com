@@ -256,6 +256,7 @@ function lanc3() {
         	window.myPie = new Chart(ctx, config2);
     		};
 }
+lanc3();
 
 
 	
