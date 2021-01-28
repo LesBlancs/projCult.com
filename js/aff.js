@@ -73,8 +73,8 @@ async function gsrun(cl){
         $("#data").empty();
         //$("#data").html(response.result.values);
         temp = response.result.values;
-	categorie1[0] = lanc();
-	categorie2[0] = lanc();
+	categorie1 = lanc()[0];
+	categorie2 = lanc()[1];
         //alert("tp1 "+temp);
 	      
 	var nb =categorie1[0]+categorie1[1]+categorie1[2]+categorie1[3];
