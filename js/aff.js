@@ -94,7 +94,8 @@ temp2=temp;
 var tempTab = [];
 	
 $.each(temp2, function() {
-	alert("cat1v2: "+Object.keys(this).length);
+	var xx = this;
+	alert("cat1v2: "+Object.keys(xx).length);
 	/*
 	for( let i=0;i<Object.keys(this).length;i++){
   		var key = Object.keys(this)[i];
