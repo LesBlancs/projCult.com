@@ -19,9 +19,10 @@
 	var jouer=false;
 	var resultatTest ="";
 	
-	alert("questionnaire qui mesure et catégorise votre personnalité de façon ludique (source MBTI)");
+	
 	function debuter()
 	{
+		alert("questionnaire qui mesure et catégorise votre personnalité de façon ludique (source MBTI)");
 		jouer = true;
 		bonne_rep = 0; nb_questions = 40;
 		nb_erreurs = 0; mem_nb_alea="";
