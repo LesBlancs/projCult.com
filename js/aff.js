@@ -248,30 +248,13 @@ var config2 = {
 
 let nb =categorie[0]+categorie[1]+categorie[2]+categorie[3];
 document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
-document.getElementById('lien').innerText = "Lien du questionnaire : https://janes-r.github.io/projCult.com";
+//document.getElementById('lien').innerText = "Lien du questionnaire : https://janes-r.github.io/projCult.com";
 
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml9 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: true})
-  .add({
-    targets: '.ml9 .letter',
-    scale: [0, 1],
-    duration: 1500,
-    elasticity: 600,
-    delay: (el, i) => 45 * (i+1)
-  }).add({
-    targets: '.ml9',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-  
-  
-  
-  
+
   $('[data-text]').on('keyup', function(){
   $(this).attr('data-text', $(this).text());
 });
