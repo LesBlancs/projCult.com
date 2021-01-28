@@ -231,13 +231,13 @@ var config2 = {
 			
         }
 };
-	//function cc(config1,config2);
+	function cc(config1,config2);
 	
 	
 	
 }	
 //alert("cat2: "+categorie);
-/*
+
  function cc(config1,config2) {
 		window.onload = function() {
         	
@@ -246,8 +246,8 @@ var config2 = {
 		var ctx = document.getElementById('chart-area2').getContext('2d');
 		
         	window.myPie = new Chart(ctx, config2);
-    		};
-}*/
+    		}
+}
 
 
 	
