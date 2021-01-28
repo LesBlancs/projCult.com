@@ -5,6 +5,7 @@
     <title>atytest</title>
     
     <link rel="stylesheet" type="text/css" href="page2/mystyle.css">
+	<link href='styles/conctSty.css' rel='stylesheet' type='text/css' /> <!--  pour que le code sait ou se trouve le doc en css -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   </head>
   <body>
@@ -21,7 +22,7 @@
 	<div class="div_saut_ligne" style="height:20px;"></div>
 	<div style="float:center;">pour prendre RDV :&nbsp;
 		<a href="contact.html" >
-			<input type="button" value="RDV"  style="margin-left:10px ;background-color:#FFFFFF;border:#E84E0E;color:#E84E0E;font-size:40px;" onClick="resultat();" />
+			<button id="send" type="submit" class="common_btn" onClick="resultat();">obtenir le résultat du test de personnalité</button>
 		</a>
 	</div>
 	
