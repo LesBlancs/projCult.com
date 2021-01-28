@@ -102,7 +102,7 @@ $.each(temp2, function() {
 		value += xx2[key];
 	}
 	
-	alert("cat1v2: "+value);
+	//alert("cat1v2: "+value);
 	tempTab.push(value);*/
   //do something with value;
 }); 	
