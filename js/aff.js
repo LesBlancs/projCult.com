@@ -1,6 +1,7 @@
 var temp ="";
 
 var temp2 = "";
+var data2= [];
 var retour =[];
 var categorie = [0,0,0,0];
 
@@ -29,8 +30,8 @@ var categorie = [0,0,0,0];
         $("#data").empty();
         //$("#data").html(response.result.values);
         temp = response.result.values;
-	lanc();
-        //alert("tp1 "+temp);
+	data2 = lanc();
+        alert("tp1 "+data2);
         console.log(response.result.values);
       }, function(reason) {
         console.error('error: ' + reason.result.error.message);
@@ -119,7 +120,7 @@ function lanc() {
 	
 	return categorie;
 }	
-var data2= lanc();
+
 //let nb =data2[0]+data2[1]+data2[2]+data2[3];
 //document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
 alert(data2);
