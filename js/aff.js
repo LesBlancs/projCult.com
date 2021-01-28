@@ -106,13 +106,10 @@ $.each(temp2, function() {
 	tempTab.push(value);
   //do something with value;
 }); 	
-	//alert("cat1t: "+tempTab);
-	//alert("cat1v2: "+type of temp2);
+	alert("cat1t: "+tempTab);
+;
 	
-/*	
-for( let i=0;i<temp2.length;i++) {
-	tempTab = temp2.split(",");
-}*/
+
 	
 	/*
 	for( let i=0;i<tempTab.length;i++) {
