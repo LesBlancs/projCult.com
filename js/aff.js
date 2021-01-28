@@ -1,3 +1,5 @@
+
+/*
 var temp ="";
 
 var temp2 = "";
@@ -7,7 +9,7 @@ var categorie = [0,0,0,0];
 var config1;
 var config2;
 
-
+*/
 
 
 cons {google} = require('googleapis');
