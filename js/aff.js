@@ -99,7 +99,7 @@ $.each(temp2, function() {
 	//alert("cat1v2: "+Object.keys(xx).length);
 	for( let i=0;i<xx.length;i++){
   		var key = xx[i];
-		var value += xx2[key];
+		var value = xx2[key];
 	}
 	
 	alert("cat1v2: "+typeof value);
