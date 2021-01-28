@@ -77,7 +77,7 @@ async function gsrun(cl){
 	categorie2[0] = lanc();
         //alert("tp1 "+temp);
 	      
-	let nb =dcategorie1[0]+categorie1[1]+categorie1[2]+categorie1[3];
+	let nb =categorie1[0]+categorie1[1]+categorie1[2]+categorie1[3];
 	document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
 	
 	 myPie1.update();
