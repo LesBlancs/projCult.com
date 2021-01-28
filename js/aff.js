@@ -37,11 +37,10 @@ var config2;
 	      
 	let nb =data2[0]+data2[1]+data2[2]+data2[3];
 	document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
+	
+	 chart.update();
 	      
-	config1=lanc2()[0];
-	config2=lanc2()[1];
-	      lanc3();
-        console.log(response.result.values);
+         console.log(response.result.values);
       }, function(reason) {
         console.error('error: ' + reason.result.error.message);
       });
