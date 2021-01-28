@@ -81,8 +81,8 @@ var temp ="";
 
 
 
-
-
+var config1 ="";
+var config2 ="";
 
 var temp2 = "";
 var retour =[];
@@ -125,13 +125,9 @@ function lanc() {
 	let nb =categorie[0]+categorie[1]+categorie[2]+categorie[3];
 	document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
 	//document.getElementById('lien').innerText = "Lien du questionnaire : https://janes-r.github.io/projCult.com";
-
 	
-}	
-//alert("cat2: "+categorie);
-
-
-var config1 = {
+	
+	var config1 = {
         type: 'doughnut',
         data: {
             labels: ["guerisseur", "supervisueur", "marechal", "guerisseur"],
@@ -238,6 +234,12 @@ var config2 = {
 			
         }
 };
+
+	
+}	
+//alert("cat2: "+categorie);
+
+
 
 
 	
