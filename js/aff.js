@@ -8,6 +8,7 @@ var retour =[];
 var categorie = [0,0,0,0];
 var config1;
 var config2;
+let nb = 0;
 
 var categorie1 = [0,0,0,0];
 var categorie2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
@@ -77,7 +78,7 @@ async function gsrun(cl){
 	categorie2 = lanc()[1];
         //alert("tp1 "+temp);
 
-	document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+categorie1[0]+categorie1[1]+categorie1[2]+categorie1[3];
+	document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : ";
 	
 	 myPie1.update();
 	 myPie2.update();    
@@ -194,7 +195,7 @@ function lanc() {
 	
 	}
 	//alert("categorie: "+categorie);
-	
+	nb = categorie1[0]+categorie1[1]+categorie1[2]+categorie1[3];
 	//document.getElementById('lien').innerText = "Lien du questionnaire : https://janes-r.github.io/projCult.com";
 	
 	return categorie1,categorie2;
