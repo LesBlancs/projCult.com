@@ -84,7 +84,7 @@
 		
 		if(nb_questions==0){
 			jouer=false;
-			
+			var continuer = true;
 			if(s>n && j>p) {
 				resultatTest +="vous etes un gardien et de type ";
 				
@@ -146,15 +146,17 @@
 					resultatTest += "cerveau";
 				}
 			}else  {
+				continuer = false;
 				alert("erreur refaite le test");
 			}
-			
-			var temp = e+ " "+i+ " "+s+ " "+n+ " "+t+ " "+f+ " "+j+ " "+p;
-			sessionStorage.setItem("data",temp);
-			document.getElementById('result').removeAttribute('disabled');
-			document.getElementById('result').removeAttribute('hidden');
-			window.location.href = "result.html";
-			resultat();
+			if(continuer==true) {
+				var temp = e+ " "+i+ " "+s+ " "+n+ " "+t+ " "+f+ " "+j+ " "+p;
+				sessionStorage.setItem("data",temp);
+				document.getElementById('result').removeAttribute('disabled');
+				document.getElementById('result').removeAttribute('hidden');
+				window.location.href = "result.html";
+				resultat();
+			}
 			//document.cookie = "data = "+e+ " "+i+ " "+s+ " "+n+ " "+t+ " "+f+ " "+j+ " "+p+"";
 			//document.cookie =	"username=John Smith; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/";
 			//var x = document.cookie;
