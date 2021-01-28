@@ -81,9 +81,7 @@ function postToGoogle() {
 					alert(temp);
 					for (let pas = 0; pas < aty.length; pas++) {
 					
-						if (aty[pas].localeCompare("vous")!=0 && aty[pas].localeCompare("êtes")!=0 && aty[pas].localeCompare("un")!=0 
-									   && aty[pas].localeCompare( "et")!=0 && aty[pas].localeCompare("de")!=0 
-						    && aty[pas].localeCompare("type")!=0){
+						if (aty[pas]!= "vous" && aty[pas]!="etes" && aty[pas]!= "un" && aty[pas]!= "et" && aty[pas]!= "de" && aty[pas]!= "type"){
 							atyf.push(aty[pas]);
 							
 						}
