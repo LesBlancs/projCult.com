@@ -126,6 +126,8 @@ $.each(temp2, function() {
 	
 }	
 //alert("cat2: "+categorie);
+
+/*
 var config1 = {
         type: 'doughnut',
         data: {
@@ -244,18 +246,11 @@ var config2 = {
         window.myPie = new Chart(ctx, config2);
     };
 
-
+*/
 
 let nb =categorie[0]+categorie[1]+categorie[2]+categorie[3];
 document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
 //document.getElementById('lien').innerText = "Lien du questionnaire : https://janes-r.github.io/projCult.com";
 
-// Wrap every letter in a span
-var textWrapper = document.querySelector('.ml9 .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-
-  $('[data-text]').on('keyup', function(){
-  $(this).attr('data-text', $(this).text());
-});
 
