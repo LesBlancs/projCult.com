@@ -231,13 +231,13 @@ var config2 = {
 			
         }
 };
-	function cc(config1,config2);
+	//function cc(config1,config2);
 	
 	
 	
 }	
 //alert("cat2: "+categorie);
-
+/*
  function cc(config1,config2) {
 		window.onload = function() {
         	
@@ -247,7 +247,7 @@ var config2 = {
 		
         	window.myPie = new Chart(ctx, config2);
     		};
-}
+}*/
 
 
 	
