@@ -322,7 +322,8 @@ function lanc3() {
 		
 }
 lanc3();
-
+let nb =categorie1[0]+categorie1[1]+categorie1[2]+categorie1[3];
+document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
 window.onload = function() {
         	
 		var ctx = document.getElementById('chart-area').getContext('2d');
