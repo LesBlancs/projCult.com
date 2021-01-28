@@ -94,16 +94,18 @@ temp2=temp;
 var tempTab = [];
 	
 $.each(temp2, function() {
+	alert("cat1v2: "+Object.keys(this).length);
+	/*
 	for( let i=0;i<Object.keys(this).length;i++){
   		var key = Object.keys(this)[i];
 		var value += this[key];
 	}
 	
 	//alert("cat1v2: "+typeof value);
-	tempTab.push(value);
+	tempTab.push(value);*/
   //do something with value;
 }); 	
-	alert("cat1t: "+tempTab);
+	//alert("cat1t: "+tempTab);
 	//alert("cat1v2: "+type of temp2);
 	
 /*	
