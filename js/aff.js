@@ -184,7 +184,7 @@ function lanc() {
 //alert(data2);
 
 
-
+let data1 = [3,6,3,5];
 config1 = {
         type: 'doughnut',
         data: {
@@ -224,6 +224,8 @@ config1 = {
             }
         }
     };
+
+let data2 = [2,3,0,1,2,0,0,1,1,3,0,1,2,0,0,1];
 config2 = {
         type: 'horizontalBar',
         data: {
@@ -250,7 +252,7 @@ config2 = {
 					'rgb(255, 255, 255)',
 					'rgb(0, 0, 0)',
                 ],
-                data: categorie,
+                data2: categorie,
             }]
         },
 
