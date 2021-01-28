@@ -122,8 +122,8 @@ function lanc() {
 	
 	}
 	//alert("categorie: "+categorie);
-	let nb22 =categorie[0]+categorie[1]+categorie[2]+categorie[3];
-	document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb22;
+	let nb =categorie[0]+categorie[1]+categorie[2]+categorie[3];
+	document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
 	//document.getElementById('lien').innerText = "Lien du questionnaire : https://janes-r.github.io/projCult.com";
 
 	
