@@ -107,7 +107,7 @@ $.each(temp2, function() {
 	
   //do something with value;
 }); 	
-	alert("cat1t: "+tempTab);
+	//alert("cat1t: "+tempTab);
 ;
 	
 
