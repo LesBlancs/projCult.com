@@ -70,7 +70,7 @@ var config2;
       //   'https://www.googleapis.com/auth/spreadsheets.readonly'
       var SCOPE = 'https://www.googleapis.com/auth/spreadsheets.readonly';
 	    
-	    
+	    /*
 	    gapi.client.init({
         'apiKey': '3379d05a4cacb1890cc85fef4a9ca4dce676db7f',
         'clientId': '100855812677045796937',
@@ -79,8 +79,8 @@ var config2;
       }).then(function() {
         gapi.auth2.getAuthInstance().isSignedIn.listen(updateSignInStatus);
         updateSignInStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
-      });
-/*
+      });*/
+
       gapi.client.init({
         'apiKey': API_KEY,
         'clientId': CLIENT_ID,
@@ -90,7 +90,7 @@ var config2;
         gapi.auth2.getAuthInstance().isSignedIn.listen(updateSignInStatus);
         updateSignInStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
       });
-      */
+      
     }
 
     function handleClientLoad() {
