@@ -125,7 +125,8 @@ function lanc() {
 	
 	return categorie;
 }	
-
+var data2= lanc();
+alert(data2);
 var config1 = {
         type: 'doughnut',
         data: {
@@ -143,7 +144,7 @@ var config1 = {
                     'rgb(131, 0, 255)',
                     'rgb(250, 255, 0)'
                 ],
-                data: lanc(),
+                data: data2,
             }]
         },
         options: {
@@ -191,7 +192,7 @@ var config2 = {
 					'rgb(255, 255, 255)',
 					'rgb(0, 0, 0)',
                 ],
-                data: lanc(),
+                data: data2,
             }]
         },
 
