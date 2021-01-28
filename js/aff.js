@@ -12,7 +12,7 @@ var config2;
 */
 
 
-cons {google} = require('googleapis');
+const {google} = require('googleapis');
 const keys = require('keys.json');
 
 const client = new google.auth.JWT(
@@ -21,7 +21,7 @@ const client = new google.auth.JWT(
 	key.private_key,
 	['https://www.googleapis.com/auth/spreadsheets']
 );
-/*
+
 client.authorize(function(err,tokens){
 	
 	if(err){
@@ -42,7 +42,7 @@ async function gsrun(cl){
 	temp = await gsapi.spreadsheets.values.get(opt);
 	console.log(temp);
 }
-*/
+
 
 
 
