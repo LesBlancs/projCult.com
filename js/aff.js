@@ -236,14 +236,7 @@ var config2 = {
 };
 
 	
-}	
-//alert("cat2: "+categorie);
-
-
-
-
-	
-    window.onload = function() {
+	 window.onload = function() {
         var ctx = document.getElementById('chart-area').getContext('2d');
 		
         window.myPie = new Chart(ctx, config1);
@@ -251,3 +244,12 @@ var config2 = {
 		
         window.myPie = new Chart(ctx, config2);
     };
+	
+}	
+//alert("cat2: "+categorie);
+
+
+
+
+	
+   
