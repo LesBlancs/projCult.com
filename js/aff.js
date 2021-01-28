@@ -195,7 +195,7 @@ function lanc() {
 	
 	}
 	//alert("categorie: "+categorie);
-	nb = categorie1[0]+categorie1[1]+categorie1[2]+categorie1[3];
+	//nb = categorie1[0]+categorie1[1]+categorie1[2]+categorie1[3];
 	//document.getElementById('lien').innerText = "Lien du questionnaire : https://janes-r.github.io/projCult.com";
 	
 	return categorie1,categorie2;
