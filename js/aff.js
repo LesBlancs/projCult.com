@@ -19,7 +19,7 @@ const client = new google.auth.JWT(
 	key.private_key,
 	['https://www.googleapis.com/auth/spreadsheets']
 );
-
+/*
 client.authorize(function(err,tokens){
 	
 	if(err){
@@ -40,14 +40,14 @@ async function gsrun(cl){
 	temp = await gsapi.spreadsheets.values.get(opt);
 	console.log(temp);
 }
+*/
 
 
 
 
 
 
-
-
+/*
 function lanc() {
 	
 //alert("tp2: "+temp);
@@ -212,6 +212,6 @@ window.onload = function() {
         	window.myPie2 = new Chart(ctx, config2);
     		};
 
-
+*/
 	
    
