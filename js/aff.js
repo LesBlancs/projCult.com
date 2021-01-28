@@ -1,4 +1,9 @@
 var temp ="";
+
+var temp2 = "";
+var retour =[];
+var categorie = [0,0,0,0];
+
     function makeApiCall() {
       var params = {
         // The ID of the spreadsheet to retrieve data from.
@@ -78,10 +83,6 @@ var temp ="";
 
 
 
-
-var temp2 = "";
-var retour =[];
-var categorie = [0,0,0,0];
 
 
 function lanc() {
