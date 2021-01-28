@@ -79,13 +79,13 @@ var temp ="";
 
 
 
-
+var temp2 = "";
+var retour =[];
+var categorie = [0,0,0,0];
 
 
 function lanc() {
-	var temp2 = "";
-	var retour =[];
-	var categorie = [0,0,0,0];
+	
 //alert("tp2: "+temp);
 	temp2=temp;
 	var tempTab = [];
@@ -99,13 +99,7 @@ function lanc() {
 			value = xx2[key];
 			tempTab.push(value);
 		}
-	
-	//alert("cat1v2: "+value);
-	
-  //do something with value;
 	}); 	
-	//alert("cat1t: "+tempTab);
-	;
 	
 
 	
@@ -119,13 +113,14 @@ function lanc() {
 	
 	}
 	//alert("categorie: "+categorie);
-	let nb =categorie[0]+categorie[1]+categorie[2]+categorie[3];
-	document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
+	
 	//document.getElementById('lien').innerText = "Lien du questionnaire : https://janes-r.github.io/projCult.com";
 	
 	return categorie;
 }	
 var data2= lanc();
+let nb =cdata2[0]+data2[1]+data2[2]+data2[3];
+document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
 alert(data2);
 var config1 = {
         type: 'doughnut',
