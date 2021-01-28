@@ -74,7 +74,7 @@ async function gsrun(cl){
         //$("#data").html(response.result.values);
         temp = response.result.values;
 	data2 = lanc();
-        //alert("tp1 "+temp);
+        alert("tp1 "+temp);
 	      
 	//let nb =data2[0]+data2[1]+data2[2]+data2[3];
 	document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+/*nb*/ 17;
@@ -252,7 +252,7 @@ config2 = {
 					'rgb(255, 255, 255)',
 					'rgb(0, 0, 0)',
                 ],
-                data2: [2,3,0,1,2,0,0,1,1,3,0,1,2,0,0,1],
+                data: [2,3,0,1,2,0,0,1,1,3,0,1,2,0,0,1],
             }]
         },
 
