@@ -81,11 +81,11 @@ var temp ="";
 
 
 
-var temp2 = "";
-var retour =[];
-var categorie = [0,0,0,0];
-function lanc() {
 
+function lanc() {
+	var temp2 = "";
+	var retour =[];
+	var categorie = [0,0,0,0];
 //alert("tp2: "+temp);
 	temp2=temp;
 	var tempTab = [];
@@ -123,8 +123,10 @@ function lanc() {
 	document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
 	//document.getElementById('lien').innerText = "Lien du questionnaire : https://janes-r.github.io/projCult.com";
 	
-	
-	var config1 = {
+	return categorie;
+}	
+
+var config1 = {
         type: 'doughnut',
         data: {
             labels: ["guerisseur", "supervisueur", "marechal", "guerisseur"],
@@ -141,7 +143,7 @@ function lanc() {
                     'rgb(131, 0, 255)',
                     'rgb(250, 255, 0)'
                 ],
-                data: categorie,
+                data: lanc(),
             }]
         },
         options: {
@@ -189,7 +191,7 @@ var config2 = {
 					'rgb(255, 255, 255)',
 					'rgb(0, 0, 0)',
                 ],
-                data: categorie,
+                data: lanc(),
             }]
         },
 
@@ -231,14 +233,8 @@ var config2 = {
 			
         }
 };
-	cc(config1,config2);
-	
-	
-	
-}	
 //alert("cat2: "+categorie);
 
- function cc(config1,config2) {
 		window.onload = function() {
         	
 		var ctx = document.getElementById('chart-area').getContext('2d');
@@ -246,8 +242,8 @@ var config2 = {
 		var ctx = document.getElementById('chart-area2').getContext('2d');
 		
         	window.myPie = new Chart(ctx, config2);
-    		}
-}
+    		};
+
 
 
 	
