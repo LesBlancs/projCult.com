@@ -131,53 +131,53 @@ function lanc() {
 //alert("cat2: "+categorie);
 
 
-var config1 = {
-        type: 'doughnut',
-        data: {
-            labels: ["guerisseur", "supervisueur", "marechal", "guerisseur"],
-            datasets: [{
-                backgroundColor: [
-					'rgb(12, 146, 204)',
-                    'rgb(255, 67, 0)',
-                    'rgb(131, 0, 255)',
-                    'rgb(250, 255, 0)'
-                ],
-                borderColor: [
-					'rgb(12, 146, 204)',
-                    'rgb(255, 67, 0)',
-                    'rgb(131, 0, 255)',
-                    'rgb(250, 255, 0)'
-                ],
-                data: categorie,
-            }]
-        },
-        options: {
-            responsive: true,
+	var config1 = {
+        	type: 'doughnut',
+        	data: {
+            	labels: ["guerisseur", "supervisueur", "marechal", "guerisseur"],
+            	datasets: [{
+                	backgroundColor: [
+				'rgb(12, 146, 204)',
+                    		'rgb(255, 67, 0)',
+                    		'rgb(131, 0, 255)',
+                    		'rgb(250, 255, 0)'
+                	],
+                	borderColor: [
+				'rgb(12, 146, 204)',
+                    		'rgb(255, 67, 0)',
+                    		'rgb(131, 0, 255)',
+                    		'rgb(250, 255, 0)'
+                	],
+                	data: categorie,
+            	}]
+        	},
+        	options: {
+            		responsive: true,
 			title: {
 				fontColor: 'rgb(232,78,14)',
 				fontSize:25,
 				text: "types des personnes",
 				display: true
 			},
-            legend: {
-                position: 'bottom',
-                labels: {
-                    fontColor: 'rgb(232,78,14)',
+            		legend: {
+                		position: 'bottom',
+                		labels: {
+                    			fontColor: 'rgb(232,78,14)',
 					fontSize:20,
-                    boxWidth: 20,
-                    padding: 20
-                }
-            }
-        }
-    };
-var config2 = {
-        type: 'horizontalBar',
-        data: {
-            labels: ["soutien","controleur","supervisueur","protecteur","interprete","artisant","organisateur","compositeur","professeur","guerisseur","defenseur","conseiller","marechal","architecte","inventeur","cerveau"],
-            datasets: [{
+                    			boxWidth: 20,
+                    			padding: 20
+                		}
+            		}
+        	}
+    	};
+	var config2 = {
+        	type: 'horizontalBar',
+        	data: {
+            		labels: ["soutien","controleur","supervisueur","protecteur","interprete","artisant","organisateur","compositeur","professeur","guerisseur","defenseur","conseiller","marechal","architecte","inventeur","cerveau"],
+            		datasets: [{
 				
 				
-                backgroundColor: [
+                		backgroundColor: [
 					
 					'#33b2df',
 					'#546E7A',
@@ -190,55 +190,55 @@ var config2 = {
 					'#f48024',
 					'#69d2e7',
 					'rgb(12, 146, 204)',
-                    'rgb(255, 67, 0)',
-                    'rgb(131, 0, 255)',
-                    'rgb(250, 255, 0)',
+                    			'rgb(255, 67, 0)',
+                    			'rgb(131, 0, 255)',
+                    			'rgb(250, 255, 0)',
 					'rgb(255, 255, 255)',
 					'rgb(0, 0, 0)',
-                ],
-                data: categorie,
-            }]
-        },
+                		],
+                		data: categorie,
+            		}]
+        	},
 
-        options: {
+        	options: {
 			title: {
 				fontColor: 'rgb(232,78,14)',
 				fontSize:25,
 				text: "categories des personnes",
 				display: true
 			},
-            legend: {
-				display: false,
-            },
-			scales: { 
-            yAxes: [{
+            	legend: {
+			display: false,
+            	},
+		scales: { 
+            		yAxes: [{
 				barThickness: 20,
 				minBarLength: 16,
 				
-                ticks: {
-                    fontColor: 'rgb(232,78,14)',
-					barPercentage: 25,
-					fontSize:25,
-                    stepSize: 5,
-                    beginAtZero: true
-                }
-            }],
+                	ticks: {
+                    		fontColor: 'rgb(232,78,14)',
+				barPercentage: 25,
+				fontSize:25,
+                    		stepSize: 5,
+                    		beginAtZero: true
+                		}
+            		}],
 			xAxes: [{
 				barThickness: 20,
 				minBarLength: 16,
 				
-                ticks: {
-                    fontColor: 'black',
+               			ticks: {
+                    			fontColor: 'black',
 					fontSize:25,
-                    stepSize: 4,
-                    beginAtZero: true
-                }
-            }]
-        }
+                    			stepSize: 4,
+                    			beginAtZero: true
+                		}
+            		}]
+        	}
 			
-        }
-};
-	
+        	}
+	};
+}	
 	
     window.onload = function() {
         var ctx = document.getElementById('chart-area').getContext('2d');
@@ -250,7 +250,7 @@ var config2 = {
     };
 
 
-}
+
 
 
 
