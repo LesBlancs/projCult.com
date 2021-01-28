@@ -85,7 +85,7 @@
 		if(nb_questions==0){
 			jouer=false;
 			var continuer = true;
-			if(s>n && j>p) {
+			if(s>=n && j>=p) {
 				resultatTest +="vous etes un gardien et de type ";
 				
 				if(e>i &&f>t){
@@ -116,7 +116,7 @@
 					resultatTest += "compositeur";
 				}
 			}
-			else if(n>s && f>t) {	
+			else if(n>=s && f>=t) {	
 				resultatTest +="vous etes un idealiste et de type ";
 				if(e>i &&j>p){
 					resultatTest += "professeur";
