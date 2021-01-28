@@ -25,7 +25,7 @@ var temp ="";
         //$("#data").html(response.result.values);
         temp = response.result.values;
 	lanc();
-        alert("tp1 "+temp);
+        //alert("tp1 "+temp);
         console.log(response.result.values);
       }, function(reason) {
         console.error('error: ' + reason.result.error.message);
@@ -111,7 +111,7 @@ $.each(temp2, function() {
 	
 
 	
-	/*
+	
 	for( let i=0;i<tempTab.length;i++) {
 		alert(tempTab[i]);
 		if( tempTab[i].match("guerisseur")) categorie[0]++;
@@ -119,7 +119,7 @@ $.each(temp2, function() {
 		else if( tempTab[i].match("marechal")) categorie[2]++;
 		else if( tempTab[i].match("guerisseur")) categorie[3]++;
 	
-	}*/
+	}
 	
 	
 	
