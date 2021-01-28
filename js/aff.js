@@ -119,7 +119,7 @@ function lanc() {
 	return categorie;
 }	
 var data2= lanc();
-let nb =cdata2[0]+data2[1]+data2[2]+data2[3];
+let nb =data2[0]+data2[1]+data2[2]+data2[3];
 document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
 alert(data2);
 var config1 = {
