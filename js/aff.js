@@ -94,7 +94,7 @@ temp2=temp;
 var tempTab = [];
 	
 $.each(temp2, function() {
-	for( let i=0;i<Object.keys(value).length;i++){
+	for( let i=0;i<Object.keys(this).length;i++){
 		if(Object.keys(this)[i] != null) {
   			var key = Object.keys(this)[i];
 			var value += this[key];
