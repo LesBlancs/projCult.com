@@ -231,7 +231,7 @@ var config2 = {
 			
         }
 };
-	function cc(config1,config2);
+	cc(config1,config2);
 	
 	
 	
