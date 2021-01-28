@@ -103,7 +103,7 @@ $.each(temp2, function() {
 	}
 	
 	alert("cat1v2: "+value);
-	//tempTab.push(value);*/
+	tempTab.push(value);*/
   //do something with value;
 }); 	
 	//alert("cat1t: "+tempTab);
