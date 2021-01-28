@@ -135,7 +135,7 @@ function lanc() {
 //alert(data2);
 
 
-function lanc2() {
+
 config1 = {
         type: 'doughnut',
         data: {
@@ -243,14 +243,13 @@ config2 = {
 			
         }
 };
-	return config1,config2;
-}	
+	
 //alert("cat2: "+categorie);
 function lanc3() {
 		
 }
 lanc3();
-lanc2();
+
 window.onload = function() {
         	
 		var ctx = document.getElementById('chart-area').getContext('2d');
