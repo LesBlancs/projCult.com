@@ -99,11 +99,12 @@ $.each(temp2, function() {
 	var value ="";
 	for( let i=0;i<xx.length;i++){
   		var key = xx[i];
-		value += xx2[key];
+		value = xx2[key];
+		tempTab.push(value);
 	}
 	
 	//alert("cat1v2: "+value);
-	tempTab.push(value);
+	
   //do something with value;
 }); 	
 	alert("cat1t: "+tempTab);
