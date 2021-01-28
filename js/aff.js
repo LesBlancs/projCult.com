@@ -38,7 +38,7 @@ var config2;
 	let nb =data2[0]+data2[1]+data2[2]+data2[3];
 	document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
 	
-	 chart.update();
+	 myPie1.update();
 	      
          console.log(response.result.values);
       }, function(reason) {
@@ -252,10 +252,10 @@ lanc3();
 window.onload = function() {
         	
 		var ctx = document.getElementById('chart-area').getContext('2d');
-        	window.myPie = new Chart(ctx, config1);
+        	window.myPie1 = new Chart(ctx, config1);
 		var ctx = document.getElementById('chart-area2').getContext('2d');
 		
-        	window.myPie = new Chart(ctx, config2);
+        	window.myPie2 = new Chart(ctx, config2);
     		};
 
 
