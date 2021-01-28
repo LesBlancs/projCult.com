@@ -136,7 +136,7 @@ function lanc() {
 
 
 function lanc2() {
-var config1 = {
+config1 = {
         type: 'doughnut',
         data: {
             labels: ["guerisseur", "supervisueur", "marechal", "guerisseur"],
@@ -153,7 +153,7 @@ var config1 = {
                     'rgb(131, 0, 255)',
                     'rgb(250, 255, 0)'
                 ],
-                data: data2,
+                data: categorie,
             }]
         },
         options: {
@@ -175,7 +175,7 @@ var config1 = {
             }
         }
     };
-var config2 = {
+config2 = {
         type: 'horizontalBar',
         data: {
             labels: ["soutien","controleur","supervisueur","protecteur","interprete","artisant","organisateur","compositeur","professeur","guerisseur","defenseur","conseiller","marechal","architecte","inventeur","cerveau"],
@@ -201,7 +201,7 @@ var config2 = {
 					'rgb(255, 255, 255)',
 					'rgb(0, 0, 0)',
                 ],
-                data: data2,
+                data: categorie,
             }]
         },
 
@@ -247,7 +247,11 @@ var config2 = {
 }	
 //alert("cat2: "+categorie);
 function lanc3() {
-		window.onload = function() {
+		
+}
+lanc3();
+lanc2();
+window.onload = function() {
         	
 		var ctx = document.getElementById('chart-area').getContext('2d');
         	window.myPie = new Chart(ctx, config1);
@@ -255,8 +259,6 @@ function lanc3() {
 		
         	window.myPie = new Chart(ctx, config2);
     		};
-}
-lanc3();
 
 
 	
