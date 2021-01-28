@@ -74,8 +74,7 @@ async function gsrun(cl){
         $("#data").empty();
         //$("#data").html(response.result.values);
         temp = response.result.values;
-	categorie1 = lanc()[0];
-	categorie2 = lanc()[1];
+	lanc();
         //alert("tp1 "+temp);
 
 	document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
