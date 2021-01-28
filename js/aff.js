@@ -130,7 +130,7 @@ function lanc() {
 	
 //alert("cat2: "+categorie);
 
-
+}
 	var config1 = {
         	type: 'doughnut',
         	data: {
@@ -238,7 +238,7 @@ function lanc() {
 			
         	}
 	};
-}	
+	
 	
     window.onload = function() {
         var ctx = document.getElementById('chart-area').getContext('2d');
