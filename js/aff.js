@@ -9,7 +9,7 @@ var categorie = [0,0,0,0];
 var config1;
 var config2;
 
-var categorie1 = [0,0,0,0];
+let categorie1 = [0,0,0,0];
 var categorie2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 /*
 const {google} = require('googleapis');
