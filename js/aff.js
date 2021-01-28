@@ -4,6 +4,8 @@ var temp2 = "";
 var data2= [];
 var retour =[];
 var categorie = [0,0,0,0];
+var config1;
+var config2;
 
     function makeApiCall() {
       var params = {
@@ -32,6 +34,8 @@ var categorie = [0,0,0,0];
         temp = response.result.values;
 	data2 = lanc();
         alert("tp1 "+data2);
+	config1=lanc2()[0];
+	config2=lanc2()[1];
         console.log(response.result.values);
       }, function(reason) {
         console.error('error: ' + reason.result.error.message);
@@ -126,7 +130,8 @@ function lanc() {
 alert(data2);
 
 
-/*var config1 = {
+function lanc2() {
+var config1 = {
         type: 'doughnut',
         data: {
             labels: ["guerisseur", "supervisueur", "marechal", "guerisseur"],
@@ -233,6 +238,8 @@ var config2 = {
 			
         }
 };
+	return config1,config2;
+}	
 //alert("cat2: "+categorie);
 
 		window.onload = function() {
