@@ -34,7 +34,7 @@ let chart1 = new Chart(myChart1, {
     options: {
         title: {
             text: "atypie",
-            display: true
+            display: false
         }
     }
 });
