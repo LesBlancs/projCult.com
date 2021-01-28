@@ -9,7 +9,7 @@ var categorie = [0,0,0,0];
 var config1;
 var config2;
 
-let categorie1 = [0,0,0,0];
+var categorie1 = [0,0,0,0];
 var categorie2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 /*
 const {google} = require('googleapis');
@@ -322,7 +322,7 @@ function lanc3() {
 		
 }
 lanc3();
-let nb =categorie1[0]+categorie1[1]+categorie1[2]+categorie1[3];
+var nb =categorie1[0]+categorie1[1]+categorie1[2]+categorie1[3];
 document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
 window.onload = function() {
         	
