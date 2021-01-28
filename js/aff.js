@@ -127,10 +127,10 @@ function lanc() {
 	//document.getElementById('lien').innerText = "Lien du questionnaire : https://janes-r.github.io/projCult.com";
 
 	
-}	
+	
 //alert("cat2: "+categorie);
 
-/*
+
 var config1 = {
         type: 'doughnut',
         data: {
@@ -249,8 +249,8 @@ var config2 = {
         window.myPie = new Chart(ctx, config2);
     };
 
-*/
 
+}
 
 
 
