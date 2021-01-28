@@ -121,11 +121,11 @@ $.each(temp2, function() {
 		else if( tempTab[i].match("guerisseur")) categorie[3]++;
 	
 	}
-	alert("categorie: "+categorie);
+	//alert("categorie: "+categorie);
 	
 	
 }	
-alert("cat2: "+categorie);
+//alert("cat2: "+categorie);
 var config1 = {
         type: 'doughnut',
         data: {
