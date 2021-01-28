@@ -81,9 +81,6 @@ var temp ="";
 
 
 
-var config1 ="";
-var config2 ="";
-
 var temp2 = "";
 var retour =[];
 var categorie = [0,0,0,0];
@@ -234,21 +231,23 @@ var config2 = {
 			
         }
 };
-
+	function cc(config1,config2);
 	
-	 window.onload = function() {
-        var ctx = document.getElementById('chart-area').getContext('2d');
-		
-        window.myPie = new Chart(ctx, config1);
-		var ctx = document.getElementById('chart-area2').getContext('2d');
-		
-        window.myPie = new Chart(ctx, config2);
-    };
+	
 	
 }	
 //alert("cat2: "+categorie);
 
-
+ function cc(config1,config2) {
+		window.onload = function() {
+        	
+		var ctx = document.getElementById('chart-area').getContext('2d');
+        	window.myPie = new Chart(ctx, config1);
+		var ctx = document.getElementById('chart-area2').getContext('2d');
+		
+        	window.myPie = new Chart(ctx, config2);
+    		};
+}
 
 
 	
