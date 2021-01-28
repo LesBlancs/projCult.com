@@ -121,7 +121,7 @@ $.each(temp2, function() {
 		else if( tempTab[i].match("guerisseur")) categorie[3]++;
 	
 	}
-	
+	alert("categorie: "+categorie);
 	
 	
 }	
