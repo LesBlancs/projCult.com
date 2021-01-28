@@ -39,7 +39,7 @@ var config2;
 	document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb;
 	
 	 myPie1.update();
-	      
+	 myPie2.update();    
          console.log(response.result.values);
       }, function(reason) {
         console.error('error: ' + reason.result.error.message);
