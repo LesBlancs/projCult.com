@@ -28,7 +28,7 @@
 	</select></center>
 
 
-<button id="send" type="submit" class="common_btn">envoyer</button>
+<button id="send" type="submit" class="common_btn" onClick="debuter();">envoyer</button>
 </form>
 
 <h3 id="success-msg" style="text-align: center !important; margin-top:190px !important; display:none; color:#E84E0E"> Votre rendez vous a été pris en compte</h3>
@@ -41,6 +41,12 @@
 
 
 <script>
+	
+	
+function debuter() {
+	window.location.href = "result.html";
+}
+	
 function postToGoogle() {
                 var field1 = $("#nameField").val();
                 var field2 = $("#emailField").val();
@@ -83,7 +89,7 @@ function postToGoogle() {
 						}
 					
 					}
-					window.location.href = "result.html";
+					
 					
 					field4 = atyf[0];
 					field5 = atyf[1];
