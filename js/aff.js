@@ -225,7 +225,7 @@ config1 = {
         }
     };
 
-var data2 = [2,3,0,1,2,0,0,1,1,3,0,1,2,0,0,1];
+var data3 = [2,3,0,1,2,0,0,1,1,3,0,1,2,0,0,1];
 config2 = {
         type: 'horizontalBar',
         data: {
@@ -252,7 +252,7 @@ config2 = {
 					'rgb(255, 255, 255)',
 					'rgb(0, 0, 0)',
                 ],
-                data2: data2,
+                data2: data3,
             }]
         },
 
