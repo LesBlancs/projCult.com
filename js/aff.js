@@ -90,25 +90,25 @@ var categorie = [0,0,0,0];
 function lanc() {
 
 //alert("tp2: "+temp);
-temp2=temp;
-var tempTab = [];
+	temp2=temp;
+	var tempTab = [];
 	
-$.each(temp2, function() {
-	var xx2 = this;
-	var xx = Object.keys(xx2);
-	var value ="";
-	for( let i=0;i<xx.length;i++){
-  		var key = xx[i];
-		value = xx2[key];
-		tempTab.push(value);
-	}
+	$.each(temp2, function() {
+		var xx2 = this;
+		var xx = Object.keys(xx2);
+		var value ="";
+		for( let i=0;i<xx.length;i++){
+  			var key = xx[i];
+			value = xx2[key];
+			tempTab.push(value);
+		}
 	
 	//alert("cat1v2: "+value);
 	
   //do something with value;
-}); 	
+	}); 	
 	//alert("cat1t: "+tempTab);
-;
+	;
 	
 
 	
@@ -122,7 +122,10 @@ $.each(temp2, function() {
 	
 	}
 	//alert("categorie: "+categorie);
-	
+	let nb22 =categorie[0]+categorie[1]+categorie[2]+categorie[3];
+	document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb22;
+	//document.getElementById('lien').innerText = "Lien du questionnaire : https://janes-r.github.io/projCult.com";
+
 	
 }	
 //alert("cat2: "+categorie);
@@ -248,9 +251,6 @@ var config2 = {
 
 */
 
-let nb22 =categorie[0]+categorie[1]+categorie[2]+categorie[3];
-document.getElementById('nbPersonne').innerText = "nombre de personne ayant répondu au atyTest : "+nb22;
-//document.getElementById('lien').innerText = "Lien du questionnaire : https://janes-r.github.io/projCult.com";
 
 
 
