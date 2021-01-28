@@ -11,7 +11,7 @@ var config2;
 
 
 cons {google} = require('googleapis');
-const keys = require('./keys.json');
+const keys = require('keys.json');
 
 const client = new google.auth.JWT(
 	keys.client_email, 
