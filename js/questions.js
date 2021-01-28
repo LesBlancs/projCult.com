@@ -28,7 +28,7 @@ function questions(numero)
 		chaine="Vous êtes plus du genre à : *être facilement distrait *posséder une bonne capacite de concentration*2";
 		break;
 		case 9:
-		chaine=" *: Pendant un travail de groupe : *vous préférez faire plusieurs choses à la fois *Vous préférez vous concentrer sur une seule chose à la fois*2";
+		chaine="Pendant un travail de groupe : *vous préférez faire plusieurs choses à la fois *Vous préférez vous concentrer sur une seule chose à la fois*2";
 		break;
 		case 10:
 		chaine="Vous êtes plus du genre à : *avoir parfois un discours changeant *être indépendant*2";
