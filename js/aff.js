@@ -172,25 +172,25 @@ function lanc() {
 		else if( tempTab[i].match("idealiste")) categorie1[2]++;
 		else if( tempTab[i].match("rationnel")) categorie1[3]++;
 		
-		else if( tempTab[i].match("rationnel")) categorie2[0]++;
-		else if( tempTab[i].match("rationnel")) categorie2[1]++;
-		else if( tempTab[i].match("rationnel")) categorie2[2]++;
-		else if( tempTab[i].match("rationnel")) categorie2[3]++;
+		else if( tempTab[i].match("soutien")) categorie2[0]++;
+		else if( tempTab[i].match("controleur")) categorie2[1]++;
+		else if( tempTab[i].match("superviseur")) categorie2[2]++;
+		else if( tempTab[i].match("protecteur")) categorie2[3]++;
 		
-		else if( tempTab[i].match("rationnel")) categorie2[4]++;
-		else if( tempTab[i].match("rationnel")) categorie2[5]++;
-		else if( tempTab[i].match("rationnel")) categorie2[6]++;
-		else if( tempTab[i].match("rationnel")) categorie2[7]++;
+		else if( tempTab[i].match("interprète")) categorie2[4]++;
+		else if( tempTab[i].match("artisant")) categorie2[5]++;
+		else if( tempTab[i].match("organisateur")) categorie2[6]++;
+		else if( tempTab[i].match("compositeur")) categorie2[7]++;
 		
-		else if( tempTab[i].match("rationnel")) categorie2[8]++;
-		else if( tempTab[i].match("rationnel")) categorie2[9]++;
-		else if( tempTab[i].match("rationnel")) categorie2[10]++;
-		else if( tempTab[i].match("rationnel")) categorie2[11]++;
+		else if( tempTab[i].match("professeur")) categorie2[8]++;
+		else if( tempTab[i].match("guerisseur")) categorie2[9]++;
+		else if( tempTab[i].match("defenseur")) categorie2[10]++;
+		else if( tempTab[i].match("conseiller")) categorie2[11]++;
 		
-		else if( tempTab[i].match("rationnel")) categorie2[12]++;
-		else if( tempTab[i].match("rationnel")) categorie2[13]++;
-		else if( tempTab[i].match("rationnel")) categorie2[14]++;
-		else if( tempTab[i].match("rationnel")) categorie2[15]++;
+		else if( tempTab[i].match("marechal")) categorie2[12]++;
+		else if( tempTab[i].match("architecte")) categorie2[13]++;
+		else if( tempTab[i].match("inventeur")) categorie2[14]++;
+		else if( tempTab[i].match("cerveau")) categorie2[15]++;
 		
 	
 	}
