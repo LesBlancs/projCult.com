@@ -40,6 +40,7 @@ var config2;
 	      
 	config1=lanc2()[0];
 	config2=lanc2()[1];
+	      lanc3();
         console.log(response.result.values);
       }, function(reason) {
         console.error('error: ' + reason.result.error.message);
@@ -245,7 +246,7 @@ var config2 = {
 	return config1,config2;
 }	
 //alert("cat2: "+categorie);
-
+function lanc3() {
 		window.onload = function() {
         	
 		var ctx = document.getElementById('chart-area').getContext('2d');
@@ -254,7 +255,7 @@ var config2 = {
 		
         	window.myPie = new Chart(ctx, config2);
     		};
-
+}
 
 
 	
